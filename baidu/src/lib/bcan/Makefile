@@ -7,7 +7,7 @@ VERSION=3.0.0.2
 SONAME=libadv_bcan.so.1
 
 CC=gcc
-CFLAGS=-Wall -march=native -O2 -pipe -DLIB_VER='"$(VERSION)"'
+CFLAGS=-Wall -march=armv8-a -O2 -pipe -DLIB_VER='"$(VERSION)"'
 SOFLAGS=-fPIC -shared -Wl,-soname,$(SONAME)
 AR=ar
 INC=$(BAIDUROOT)/src/kernel/include/uapi

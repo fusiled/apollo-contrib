@@ -4,7 +4,7 @@
 
 BAIDUROOT=../../..
 CC=gcc
-CFLAGS=-Wall -march=native -O2 -pipe -static
+CFLAGS=-Wall -march=armv8-a -O2 -pipe -static
 LIB_PATH=../../lib/bcan
 LIB=$(LIB_PATH)/libadv_bcan.a
 INC=-I$(BAIDUROOT)/src/kernel/include/uapi -I$(LIB_PATH)

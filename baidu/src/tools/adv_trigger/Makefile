@@ -4,7 +4,7 @@
 
 BAIDUROOT=../../..
 CC=gcc
-CFLAGS=-Wall -march=native -O2 -pipe -static
+CFLAGS=-Wall -march=armv8-a -O2 -pipe -static
 LIB_PATH=../../lib/adv_trigger
 LIB=$(LIB_PATH)/libadv_trigger.a
 INC=$(BAIDUROOT)/src/kernel/include/uapi

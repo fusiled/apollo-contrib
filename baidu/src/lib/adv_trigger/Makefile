@@ -7,7 +7,7 @@ VERSION=3.0.0.1
 SONAME=libadv_trigger.so.1
 
 CC=gcc
-CFLAGS=-Wall -Wno-unused-result -march=native -O2 -pipe -DLIB_VER='"$(VERSION)"'
+CFLAGS=-Wall -Wno-unused-result -march=armv8-a -O2 -pipe -DLIB_VER='"$(VERSION)"'
 SOFLAGS=-fPIC -shared -Wl,-soname,$(SONAME)
 AR=ar
 INC=$(BAIDUROOT)/src/kernel/include/uapi
